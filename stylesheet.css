@@ -1,33 +1,21 @@
-/* style.css */
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  text-align: center;
 }
 
 .logo {
   font-size: 24px;
+  font-weight: bold;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
-.visual {
-  text-align: center;
+nav li {
+  margin: 0 10px;
 }
-
-.catchcopy {
-  font-size: 20px;
-  text-align: center;
-  margin: 20px;
-}
-
-/* 他の要素のスタイルも同様に定義 */
