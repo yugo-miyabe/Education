@@ -137,21 +137,17 @@ img {
         outline: none;
     }
 
-    .main {}
+    .main {
+        display: flex;
+        /* Flexbox を適用 */
+        justify-content: space-between;
+        /* 子要素を左右に配置 */
+    }
 
     .copyright {
         margin-top: 50px;
     }
 }
-
-/*
-.main {
-    height: calc(100vh - 110px);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
 
 .first-view {
     display: flex;
@@ -177,8 +173,8 @@ img {
 
 /* TODO 画像サイズを変更 */
 .icon-image {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
 }
 
 h1 {
@@ -239,4 +235,32 @@ h1 {
 .recommended-image {
     width: 25%;
     height: 40%;
+}
+
+.custom-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: #F0F0F0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.menu-button {
+    background-color: #F0F0F0;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
