@@ -182,7 +182,6 @@ img {
 }
 
 h1 {
-
     font-family: "Noto Serif JP", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -200,33 +199,33 @@ h1 {
 .recommended-whiskey {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+.recommended-list-whiskey dt {
+    margin-left: 50px;
+    font-family: Snell Roundhand, cursive;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.recommended-list-whiskey dd {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 250px;
 }
 
 .recommended_cigar {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 50px;
-}
-
-.recommended-list-whiskey dt {
-    margin-left: 50px;
-    font-family: "Noto Serif JP", serif;
-    font-size: 2.5rem;
-    line-height: 1.5;
-}
-
-.recommended-list-whiskey dd {
-    margin-left: 50px;
-    margin-top: 20px;
-    width: 40%
+    padding-bottom: 70px;
 }
 
 .recommended-list-cigar dt {
     text-align: right;
     margin-right: 50px;
-    font-family: "Noto Serif JP", serif;
+    font-family: Snell Roundhand, cursive;
     font-size: 2.5rem;
     line-height: 1.5;
 }
@@ -234,7 +233,7 @@ h1 {
 .recommended-list-cigar dd {
     margin-top: 20px;
     margin-right: 50px;
-    width: 40%;
+    width: 250px;
 }
 
 .recommended-image {
