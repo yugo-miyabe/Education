@@ -191,8 +191,6 @@ h1 {
     line-height: 1.5;
 }
 
-/* 例: フォントサイズの1.5倍 */
-
 
 .first-view-description {
     margin-top: 50px;
@@ -200,17 +198,20 @@ h1 {
     line-height: 150%;
 }
 
+.recommended-whiskey {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+}
 
-
-.recommended {
+.recommended_cigar {
     display: flex;
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 50px;
     align-items: flex-end;
-    /* 子要素を下端に揃える */
 }
-
 
 .recommended-list-right dt {
     margin-left: 50px;
