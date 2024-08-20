@@ -191,7 +191,6 @@ h1 {
     line-height: 1.5;
 }
 
-
 .first-view-description {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -207,42 +206,38 @@ h1 {
 .recommended_cigar {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
     align-items: flex-end;
+    padding-bottom: 50px;
 }
 
-.recommended-list-right dt {
+.recommended-list-whiskey dt {
     margin-left: 50px;
-    font-weight: 400;
     font-family: "Noto Serif JP", serif;
-    font-optical-sizing: auto;
     font-size: 2.5rem;
     line-height: 1.5;
 }
 
-
-.recommended-list-right dd {
+.recommended-list-whiskey dd {
     margin-left: 50px;
     margin-top: 20px;
+    width: 40%
 }
 
-.recommended-list-left dt {
+.recommended-list-cigar dt {
     text-align: right;
     margin-right: 50px;
-    font-weight: 400;
     font-family: "Noto Serif JP", serif;
-    font-optical-sizing: auto;
     font-size: 2.5rem;
     line-height: 1.5;
 }
 
-.recommended-list-left dd {
-    margin-right: 50px;
+.recommended-list-cigar dd {
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-right: 50px;
+    width: 40%;
 }
 
 .recommended-image {
-    width: 500px;
-    height: 400px;
+    width: 25%;
+    height: 40%;
 }
