@@ -139,9 +139,8 @@ img {
 
     .main {
         display: flex;
-        /* Flexbox を適用 */
-        justify-content: space-between;
-        /* 子要素を左右に配置 */
+        justify-content: center;
+
     }
 
     .copyright {
