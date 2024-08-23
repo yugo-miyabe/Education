@@ -284,3 +284,17 @@ h1 {
     width: 600px;
     margin: 0 auto;
 }
+
+.address {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    line-height: 150%;
+}
+
+.opening-times {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    line-height: 120%;
+}
