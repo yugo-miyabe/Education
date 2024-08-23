@@ -163,7 +163,7 @@ img {
 
 .main-image {
     border: 2px solid #000;
-    background: url(junisoImages/main.jpg) no-repeat 0 0 / cover;
+    background: url(../img/main.jpg) no-repeat 0 0 / cover;
     width: 100%;
     /*16:9にするため、9÷16×100％＝56.25% */
     padding-top: 56%;
