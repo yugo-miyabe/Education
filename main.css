@@ -281,8 +281,9 @@ h1 {
 }
 
 .google-map {
-    width: 600px;
     margin: 0 auto;
+    justify-content: center;
+    display: flex;
 }
 
 .address {
