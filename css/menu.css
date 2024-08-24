@@ -97,7 +97,6 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 20px;
 }
 
@@ -115,4 +114,22 @@ img {
 .menu-item p {
     font-size: 16px;
     line-height: 1.5;
+}
+
+.snack-container {
+    justify-content: space-between;
+    margin: 0 auto;
+    justify-content: flex-start;
+
+    margin-bottom: 50px;
+}
+
+.snack-list {
+    text-align: center;
+    padding: 0;
+}
+
+.snack-list li {
+    padding: 10px;
+    margin-bottom: 5px;
 }
