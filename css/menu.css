@@ -100,7 +100,7 @@ img {
 }
 
 .menu-item {
-    width: calc(50% - 20px);
+    width: 40%;
     margin-bottom: 20px;
     padding: 20px;
 }
