@@ -117,19 +117,19 @@ img {
 }
 
 .snack-container {
-    justify-content: space-between;
+    width: 60%;
     margin: 0 auto;
-    justify-content: flex-start;
-
-    margin-bottom: 50px;
 }
 
 .snack-list {
-    text-align: center;
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-.snack-list li {
+.snack-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: cent er;
     padding: 10px;
-    margin-bottom: 5px;
 }

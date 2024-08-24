@@ -152,7 +152,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
 }
 
 .first-view-inner {
@@ -215,7 +214,7 @@ h1 {
     padding-bottom: 70px;
 }
 
-.recommended-list-cigar dt {
+.recommended-cigar dt {
     text-align: right;
     margin-right: 50px;
     font-family: Snell Roundhand, cursive;
@@ -223,7 +222,7 @@ h1 {
     line-height: 1.5;
 }
 
-.recommended-list-cigar dd {
+.recommended-cigar dd {
     margin-top: 20px;
     margin-right: 50px;
     width: 250px;
