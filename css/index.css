@@ -285,17 +285,19 @@ h1 {
     display: flex;
 }
 
+.option {
+    margin: 0 auto;
+    justify-content: center;
+    width: 500px;
+}
+
 .address {
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
     line-height: 150%;
 }
 
 .opening-times {
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
     line-height: 120%;
 }
 

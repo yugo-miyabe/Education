@@ -107,6 +107,7 @@ img {
 }
 
 .menu-item h2 {
+    text-align: center;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -114,6 +115,10 @@ img {
 .menu-item p {
     font-size: 16px;
     line-height: 1.5;
+}
+
+.place {
+    text-align: end;
 }
 
 .snack-container {
